@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
+			rel="stylesheet"
+		/>
+
+		<link rel="stylesheet" href="./styles.css" />
+
+		<title>Frontend Mentor | NFT preview card component</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="card">
+				<header class="card-header">
+					<a class="preview-img-container" href="#">
+						<div class="view">
+							<img src="./images/icon-view.svg" />
+						</div>
+
+						<img
+							class="preview-img"
+							src="./images/image-equilibrium.jpg"
+							alt="Equilibrium"
+						/>
+					</a>
+
+					<h1 class="header-title">
+						<a class="highlight" href="#">Equilibrium #3429</a>
+					</h1>
+				</header>
+
+				<div class="card-body">
+					<p class="card-description">
+						Our Equilibrium collection promotes balance and calm.
+					</p>
+
+					<div class="card-info">
+						<p class="price">
+							<img
+								src="./images/icon-ethereum.svg"
+								alt="Ethereum icon"
+							/>
+
+							0.041 ETH
+						</p>
+
+						<p class="time">
+							<img
+								src="./images/icon-clock.svg"
+								alt="Clock icon"
+							/>
+
+							3 days left
+						</p>
+					</div>
+				</div>
+
+				<footer class="card-footer">
+					<img
+						class="avatar"
+						src="./images/image-avatar.png"
+						alt="Avatar"
+					/>
+
+					<p>
+						Creation of
+						<a class="highlight" href="#">Jules Wyvern</a>
+					</p>
+				</footer>
+			</div>
+		</div>
+	</body>
+</html>

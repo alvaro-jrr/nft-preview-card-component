@@ -17,8 +17,6 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
     - [Useful resources](#useful-resources)
   - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -90,5 +88,5 @@ I would like to keep improving in responsive design, making the elements resize 
 
 ## Author
 
--   Website - [Alvaro Resplandor](https://github.com/alvaro-jrr)
+-   Github - [Alvaro Resplandor](https://github.com/alvaro-jrr)
 -   Frontend Mentor - [@alvaro-jrr](https://www.frontendmentor.io/profile/alvaro-jrr)
